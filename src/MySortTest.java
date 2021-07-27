@@ -22,5 +22,13 @@ class MySortTest {
         assertEquals(testArr,arr.sortOneElement());
     }
 
-    
+    @Test
+    void case02(){
+        List<Integer> testArr = new ArrayList<>();
+        testArr.add(1);
+        testArr.add(2);
+
+        MySort arr = new MySort(testArr);
+        assertEquals(testArr,arr.sortTwoElement());
+    }
 }

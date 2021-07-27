@@ -21,6 +21,11 @@ public class MySort {
         return arr;
     }
 
+    public List sortTwoElement(){
+        Collections.sort(arr);
+        return arr;
+    }
+
 
 
 }
