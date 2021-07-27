@@ -17,8 +17,10 @@ public class MySort {
         return arr;
     }
 
-    public List Sort(){
-        List<Integer> sortedArr = Collections.sort(arr);
-        return
+    public List sortOneElement(){
+        return arr;
     }
+
+
+
 }

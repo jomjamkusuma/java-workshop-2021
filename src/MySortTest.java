@@ -19,6 +19,8 @@ class MySortTest {
         testArr.add(1);
 
         MySort arr = new MySort(testArr);
-        assertEquals(testArr,arr.Sort);
+        assertEquals(testArr,arr.sortOneElement());
     }
+
+    
 }
