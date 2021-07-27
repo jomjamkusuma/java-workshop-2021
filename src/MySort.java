@@ -21,7 +21,7 @@ public class MySort {
         return arr;
     }
 
-    public List sortTwoElement(){
+    public List sortElement(){
         Collections.sort(arr);
         return arr;
     }
